@@ -11,7 +11,8 @@
     "react-scripts": "1.1.1",
     "react-transition-group": "^2.2.1",
     "reactstrap": "^4.8.0",
-    "request": "^2.83.0"
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
   },
   "scripts": {
     "start": "node server",
