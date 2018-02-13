@@ -1,16 +1,25 @@
 {
-  "name": "squashnet2",
-  "version": "1.0.0",
-  "description": "Squashnet overlay",
-  "main": "script.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "MIT",
+  "name": "test-app",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
+    "bootstrap": "^4.0.0",
     "cheerio": "^1.0.0-rc.2",
     "express": "^4.16.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.1.1",
+    "react-transition-group": "^2.2.1",
+    "reactstrap": "^4.8.0",
     "request": "^2.83.0"
+  },
+  "scripts": {
+    "start": "node server",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.12"
   }
 }
